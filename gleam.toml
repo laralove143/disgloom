@@ -1,0 +1,11 @@
+description = "A Discord API library for the Gleam programming language"
+licences = ["MIT"]
+name = "disgloom"
+repository = { type = "github", user = "laralove143", repo = "disgloom" }
+version = "1.0.0"
+
+[dependencies]
+gleam_stdlib = ">= 0.44.0 and < 2.0.0"
+
+[dev-dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
